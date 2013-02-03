@@ -170,43 +170,43 @@ void draw(){
   /// ***************** se acaba y **********************
   /// ***************** starts z ************************
   if(zeta<1){
-     //     println("se mando z: 0 al labView");
+          println("se mando z: 0 al labView");
     servidorzeta.write('0');
   }
   if(zeta>1 && zeta<12){
-    //  println("se mando z: 1 al labView");
+      println("se mando z: 1 al labView");
     servidorzeta.write('1');
   }
   if(zeta>12 && zeta<23){
-      // println("se mando z: 2 al labView");
+       println("se mando z: 2 al labView");
     servidorzeta.write('2');
   }
   if(zeta>23 && zeta<34){
-     //   println("se mando z: 3 al labView");
+        println("se mando z: 3 al labView");
     servidorzeta.write('3');
   }
   if(zeta>34 && zeta<45){
-     //   println("se mando z: 4 al labView");
+        println("se mando z: 4 al labView");
     servidorzeta.write('4');
   }
   if(zeta>45 && zeta<56){
-       //  println("se mando z: 5 al labView");
+         println("se mando z: 5 al labView");
     servidorzeta.write('5');
   }
   if(zeta>56 && zeta<67){
-      //   println("se mando z: 6 al labView");
+         println("se mando z: 6 al labView");
     servidorzeta.write('6');
   }
   if(zeta>67 && zeta<78){
-      //  println("se mando z: 7 al labView");
+        println("se mando z: 7 al labView");
     servidorzeta.write('7');
   }
   if(zeta>78 && zeta<89){
-     // println("se mando z: 8 al labView");
+      println("se mando z: 8 al labView");
     servidorzeta.write('8');
   }
   if(zeta>89){
-     //  println("se mando z: 9 al labView");
+       println("se mando z: 9 al labView");
     servidorzeta.write('9');
   }
   
@@ -251,7 +251,6 @@ void draw(){
      servidorproximidad.write('1');
      }else{
        servidorproximidad.write('0');
-       //println(" pinza desactivada");
      }
     
     Finger  finger_middle    = hand.getMiddleFinger();
