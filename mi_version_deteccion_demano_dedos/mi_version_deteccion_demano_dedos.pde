@@ -20,13 +20,13 @@ float zindice=0;
 float xgordo=0;
 float ygordo=0;
 float zgordo=0;
-/*
+
 public void init() { 
   frame.removeNotify(); 
   frame.setUndecorated(true); 
   frame.addNotify();
   super.init();
-}*/
+}
 
 void setup(){
   size(800, 500, OPENGL);
