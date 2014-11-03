@@ -1,2 +1,2 @@
-edicion numero 1 :
--agregar archivos
+-Se agrega el VI.
+-Se agrega el Processing.
